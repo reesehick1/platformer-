@@ -3,10 +3,16 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
+    {"id":{"name":"sPlayer_falling","path":"sprites/sPlayer_falling/sPlayer_falling.yy",},"order":4,},
+    {"id":{"name":"sstatic","path":"sprites/sstatic/sstatic.yy",},"order":9,},
+    {"id":{"name":"splayer_idle_anim","path":"sprites/splayer_idle_anim/splayer_idle_anim.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"splayer_move","path":"sprites/splayer_move/splayer_move.yy",},"order":5,},
     {"id":{"name":"sInvisable_wall","path":"sprites/sInvisable_wall/sInvisable_wall.yy",},"order":1,},
+    {"id":{"name":"sbackground","path":"sprites/sbackground/sbackground.yy",},"order":8,},
+    {"id":{"name":"sclouds","path":"sprites/sclouds/sclouds.yy",},"order":7,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"swalls","path":"sprites/swalls/swalls.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

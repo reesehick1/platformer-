@@ -10,13 +10,11 @@ var _move = key_right - key_left;
 
 hsp = _move * walksp;
 
-x = x + hsp;
-
 vsp = vsp + grv;
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-	vsp = vsp + grv;
+	vsp = -jumpsp 
 }
 
 //horazontal collision
@@ -35,8 +33,31 @@ if (place_meeting(x,y+vsp,oWall))
 {
 	while (!place_meeting(x,y+sign(vsp),oWall))
 	{
-		x = x + sign(vsp);
+		y = y + sign(vsp);
 	}
 	vsp = 0;
 }
 y = y + vsp;
+
+//animation
+if (!place_meeting(x,y+1,oWall))
+{
+	sprite_index = sPlayer_falling;
+	image_speed = 0;
+	if (vsp > 0) image_index = 1; else image_index = 0;
+}
+else
+{
+	image_speed = 1'
+	if (hsp == 0)
+	{
+		sprite_index = splayer_idle_anim;
+	}
+	else
+	{
+		sprite_index = splayer_move;
+	}
+
+}   
+
+if (hsp != 0) image_xscale = sign(hsp);
