@@ -6,6 +6,7 @@
     {"id":{"name":"sPlayer_falling","path":"sprites/sPlayer_falling/sPlayer_falling.yy",},"order":4,},
     {"id":{"name":"sstatic","path":"sprites/sstatic/sstatic.yy",},"order":9,},
     {"id":{"name":"splayer_idle_anim","path":"sprites/splayer_idle_anim/splayer_idle_anim.yy",},"order":3,},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"splayer_move","path":"sprites/splayer_move/splayer_move.yy",},"order":5,},
     {"id":{"name":"sInvisable_wall","path":"sprites/sInvisable_wall/sInvisable_wall.yy",},"order":1,},

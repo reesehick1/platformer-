@@ -48,7 +48,7 @@ if (!place_meeting(x,y+1,oWall))
 }
 else
 {
-	image_speed = 1'
+	image_speed = 1;
 	if (hsp == 0)
 	{
 		sprite_index = splayer_idle_anim;
