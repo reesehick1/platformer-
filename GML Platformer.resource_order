@@ -1,0 +1,14 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"sbackground","order":8,"path":"sprites/sbackground/sbackground.yy",},
+    {"name":"sclouds","order":7,"path":"sprites/sclouds/sclouds.yy",},
+    {"name":"sInvisable_wall","order":1,"path":"sprites/sInvisable_wall/sInvisable_wall.yy",},
+    {"name":"sPlayer_falling","order":4,"path":"sprites/sPlayer_falling/sPlayer_falling.yy",},
+    {"name":"splayer_idle_anim","order":3,"path":"sprites/splayer_idle_anim/splayer_idle_anim.yy",},
+    {"name":"splayer_move","order":5,"path":"sprites/splayer_move/splayer_move.yy",},
+    {"name":"sstatic","order":9,"path":"sprites/sstatic/sstatic.yy",},
+    {"name":"swalls","order":6,"path":"sprites/swalls/swalls.yy",},
+  ],
+}
